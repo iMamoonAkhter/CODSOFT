@@ -1,10 +1,10 @@
 #about-section {
+    margin: 11vw 2vw 2vw 2vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 5vw;
     background-color: #fff;
-    margin: 2vw;
     box-shadow: 0 0 2vw rgba(0, 0, 0, 0.1);
 }
 
