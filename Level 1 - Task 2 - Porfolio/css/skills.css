@@ -1,0 +1,74 @@
+.skills-section {
+    padding: 5vw;
+    background-color: #fff;
+    margin: 2vw;
+    box-shadow: 0 0 2vw rgba(0, 0, 0, 0.1);
+}
+
+.skills-heading {
+    margin-bottom: 2vw;
+    color: #333;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill {
+    flex: 0 0 48%;
+    margin-bottom: 2vw;
+    text-align: center;
+    position: relative;
+}
+
+.text-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin-bottom: 1vw;
+}
+
+.progress-container {
+    position: relative;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 2vw;
+    margin-bottom: 1vw;
+    background-color: #fff;
+    border-right-style: 5vw;
+    
+}
+progress::-webkit-progress-bar{
+    border-radius: 5vw;
+    background-color: #1a1a1a;
+
+}
+progress::-webkit-progress-value {
+     background: rgb(21, 21, 240);
+     box-shadow: 0 0 1vw rgba(21, 21, 240,8);
+     border-top-right-radius: 5vw;
+     border-bottom-right-radius: 5vw;
+    }
+progress::-moz-progress-bar {
+    background: rgb(21, 21, 240);
+    box-shadow: 0 0 1vw rgba(21, 21, 240,8);
+    border-radius: 5vw;
+    background-color: #1a1a1a;
+
+
+    }
+.percentage {
+    position: absolute;
+    top: 18%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    color: #333;
+    font-size: 1.5vw;
+}

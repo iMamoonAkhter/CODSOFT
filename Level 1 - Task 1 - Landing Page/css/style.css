@@ -1,0 +1,42 @@
+@import url(fonts.css);
+@import url(menu.css);
+@import url(home.css);
+@import url(about.css);
+@import url(contact.css);
+@import url(gallery.css);
+@import url(footer.css);
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: #eee;
+    padding: 2vw; /* Adjusted to use vw */
+}
+
+section {
+    padding: 4vw; /* Adjusted to use vw */
+    /* margin: 4vw; Adjusted to use vw */
+    /* border: 1px solid #ccc; */
+}
+
+
+.icons{
+    width: 1.5vw;
+    margin: 0 0vw 0 0;
+    text-align: center;
+}

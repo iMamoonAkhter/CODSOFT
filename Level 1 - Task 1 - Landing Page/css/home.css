@@ -1,0 +1,42 @@
+.Home_container {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../img/cover.jpg);
+    background-clip: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card {
+    width: 20vw; /* Adjust the width as needed */
+    padding: 2vw; /* Adjust the padding as needed */
+    box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.1); /* Adjust the box-shadow as needed */
+    background-color: #fff;
+}
+.card #card_paragraph{
+    text-align: justify;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1vw 1.5vw; /* Adjust the padding as needed */
+    border: none;
+    margin: 2vw 0 0 0;
+    border-radius: 0.5vw; /* Adjust the border-radius as needed */
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.card button:hover{
+    background: #2c872f;
+}
+.card_heading{
+    margin: 0 0 0.5vw 0;
+    font-size: 1.7vw;
+}
+.card p{
+    font-size: 1vw;
+}
+
+
+

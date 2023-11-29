@@ -1,0 +1,143 @@
+    .menu {
+        background-color: #251613;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.5vw;
+        color: #fff;
+    }
+
+    .menu_left-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 2vw 0 0;
+    }
+
+    .icons:nth-child(1){
+        margin-left: 1vw;
+    }
+
+    .menu_title {
+        font-size: 1.5vw;
+        font-weight: bold;
+        margin-left: 0.5vw;
+    }
+
+    .menu_center-section {
+        text-align: center;
+        flex-grow: 1;
+    }
+
+    
+
+    .menu_right-section {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu_icon {
+        width: 3vw;
+        height: auto;
+        margin-left: 1vw;
+    }
+    .menu_right-section input[type="text"] {
+        padding: 0.4vw; /* Adjusted to use vw for padding */
+        border: none;
+        outline: none;
+        border-radius: 0.3vw; /* Adjusted to use vw for border-radius */
+        margin-right: 1vw; /* Adjusted to use vw for margin */
+        font-size: 1vw; /* Adjusted to use vw for font size */
+        position: relative;
+        left: 4vw;
+        
+    }
+    .search-icon{
+        /* z-index: 100; */
+        position: relative;
+    }
+    input[type="text" i] {
+        /* width: 0; */
+        background-color: #fff;
+        /* display: none; */
+    }
+    .search-icon:hover input[type="search" i]{
+        /* width: 5vw; */
+        background-color: #fff;
+        display: none;
+    }
+
+
+    .btn41-43 {
+        padding: 0.5vw 1vw;
+        font-size: 1vw;
+        font-weight: 800;
+        background: transparent;
+        outline: none !important;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        text-decoration: none;
+    }
+      
+    .btn-43 {
+        /* border: 2px solid rgb(255, 255, 255); */
+        z-index: 1;
+        color: white;
+    }
+      
+    .btn-43:after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 0;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        background: rgb(255, 255, 255);
+        transition: all 0.3s ease;
+    }
+      
+    .btn-43:hover {
+        color: rgb(0, 0, 0);
+    }
+      
+    .btn-43:hover:after {
+        top: auto;
+        bottom: 0;
+        height: 100%;
+    }
+
+
+    
+menu .icons {
+    width: 2vw;
+    height: 2vw;
+    fill: rgb(231, 45, 45);
+    /* border: 2px solid red; */
+    font-size: 0.5vw;
+    margin-right: 1vw;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    z-index: 9999;
+}
+
+menu a:hover{
+    color: red;
+}
+
+menu .icon2 {
+    width: 3vw;
+    height: 1.5vw;
+    fill: rgb(0, 0, 0);
+    /* border: 2px solid red; */
+    font-size: 0.5vw;
+    margin-right: 1vw;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    z-index: 1;
+}
+menu .icon-profile{
+    fill: blue;
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AmbrosiaAlcove Restaurant</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- FontAwesome Kit -->
+    <script src="https://kit.fontawesome.com/8f7f00f702.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+
+        <menu class="menu" id="Home">
+            <div class="menu_left-section">
+                <a href=""><svg class="icons"><use class="icon1" xlink:href="img/icons/iconsuper.svg#icon-coffee"></use></svg></a>
+                <div class="menu_title title">Ambrosial Cove</div>
+            </div>
+        
+            <div class="menu_center-section">
+                <a href="#Home" class="btn btn41-43 btn-43">
+                    Home
+                </a>
+                <a href="#About" class="btn btn41-43 btn-43">
+                    About
+                </a>
+                <a href="#Gallery" class="btn btn41-43 btn-43">
+                    Gallery
+                </a>
+                <a href="#Contact" class="btn btn41-43 btn-43">
+                    Contact
+                </a>
+            </div>
+        
+            <div class="menu_right-section">
+                <input type="text" required placeholder="Search..." name="" id="search_input">
+                <a href="" class="search-icon"><svg class="icon2"><use class="icon2" xlink:href="img/icons/iconsuper.svg#icon-search"></use></svg></a>
+                <a href=""><svg class="icons"><use class="icon1" xlink:href="img/icons/iconsuper.svg#icon-cart"></use></svg></a>
+                <a href=""><svg class="icons icon-profile"><use class="icon1" xlink:href="img/icons/iconsuper.svg#icon-user-solid-circle"></use></svg></a>
+            </div>
+        </menu>
+    
+        
+    
+        <section id="Home" class="Home_container">
+            <div class="card">
+                <h2 class="title card_heading">Where Flavor Meets Elegance</h2>
+                <p id="card_paragraph">Welcome to Ambrosial Cove, where passion for food meets unparalleled craftsmanship. Immerse yourself in a dining experience like no other, where each dish is a masterpiece, meticulously crafted to tantalize your taste buds.</p>
+                <button>Visit Us Today</button>
+            </div>
+        </section>
+
+
+
+
+        <section id="About" class="About_container">
+            <div class="about-content">
+                <h1 class="about-heading title">About Us</h1>
+                <div class="about-columns">
+                    <div class="about-left-column">
+                        <h2 class="subheading">Our Story</h2>
+                        <p>Welcome to Ambrosial Cove, where culinary artistry meets a passion for quality dining. With a rich history rooted in tradition, we are committed to delivering an exceptional experience to our guests.</p>
+        
+                        <h2 class="subheading">Cuisine Excellence</h2>
+                        <p>Our chefs meticulously curate each dish, blending fresh, locally sourced ingredients to create a menu that reflects our dedication to culinary excellence. Explore a world of flavors with every bite.</p>
+                    </div>
+                    <div class="about-right-column">
+                        <img src="img/about.jpg" alt="Restaurant Image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+
+
+
+        <sections id="Gallery" class="Gallery_container">
+            <h1 class="gallery_heading">Gallery</h1>
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide"><img src="img/steptodown.com353571.jpg" alt="Slide 1"></div>
+                    <div class="slide"><img src="img/steptodown.com823342.jpg" alt="Slide 2"></div>
+                    <div class="slide"><img src="img/about.jpg" alt="Slide 3"></div>
+                    <div class="slide"><img src="img/cover.jpg" alt="Slide 4"></div>
+                    <!-- Add more slides as needed -->
+                </div>
+                <button class="arrow arrow-left" onclick="prevSlide()">&#8249;</button>
+                <button class="arrow arrow-right" onclick="nextSlide()">&#8250;</button>
+            </div>
+        </sections>
+
+
+
+
+
+        <section id="Contact" class="contact_container">
+            <div class="sub_container">
+                <div class="contact_header">
+                    <h2>Contact Us</h2>
+                </div>
+                <form class="contact_form">
+                    <div class="form_group">
+                        <label for="name">Your Name:</label>
+                        <input type="text" required inputmode="kana-name" id="name" name="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form_group">
+                        <label for="email">Your Email:</label>
+                        <input type="email" required inputmode="email" id="email" name="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form_group">
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" inputmode="katakana" required name="message" placeholder="Enter your message"></textarea>
+                    </div>
+                    <div class="form_group form_btn">
+                        <input type="submit" class="btn" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </section>
+    
+        <!-- Add more sections as needed -->
+    
+        <footer>
+            <div class="footer_container">
+                <div class="column">
+                    <h3>Links</h3>
+                    <a href="#Home">Home</a>
+                    <a href="#About">About Us</a>
+                    <a href="#Gallery">Gallery</a>
+                    <a href="#Contact">Contact</a>
+                </div>
+                <div class="column">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons" >
+                        <div class="icon_item">
+                            <a href=""><svg class="icon"><use class="icon1" xlink:href="img/icons/iconsuper.svg#icon-instagram"></use></svg></a>
+                        </div>
+                        <div class="icon_item">
+                            <a href=""><svg class="icon"><use class="icon1" xlink:href="img/icons/iconsuper.svg#icon-linkedin"></use></svg></a>
+                        </div>
+                        <div class="icon_item">
+                            <a href=""><svg class="icon"><use class="icon1" xlink:href="img/icons/iconsuper.svg#icon-x"></use></svg></a>
+                        </div>
+                        <!-- Add more social icons as needed -->
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="map-container">
+                        <!-- Embed Google Maps here -->
+                        <!-- Replace the iframe src attribute with your Google Maps embed code -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.629687014888!2d12.491076675792867!3d41.90082047123923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61af3dbdd04f%3A0xe7185ee292c97e96!2sAmbrosia%20Rooftop%20Restaurant%20%26%20Bar!5e0!3m2!1sen!2s!4v1700745383700!5m2!1sen!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        
+            <p>&copy; 2023 Your Company Name. All rights reserved.</p>
+        </footer>
+
+
+    </div>
+
+
+
+
+
+
+    <script src="script/script.js"></script>
+    <script src="script/slider.js"></script>
+</body>
+</html>

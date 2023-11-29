@@ -1,0 +1,52 @@
+#contact{
+    padding: 5vw;
+    background-color: #fff;
+    margin: 2vw;
+    box-shadow: 0 0 2vw rgba(0, 0, 0, 0.1);
+}
+
+#contact-form {
+    max-width: 80vw;
+    margin: auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.7vw;
+    text-align: left;
+    margin-left: .5vw;
+    color: #333; /* Set the label text color */
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 0.8vw;
+    margin-bottom: 1.4vw;
+    border: 1px solid #ccc; /* Set the border color for input and textarea */
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  textarea {
+    resize: none;
+  }
+  
+  input[type="submit"] {
+    background-color: #007BFF; /* Set the background color for the submit button */
+    color: #fff; /* Set the text color for the submit button */
+    cursor: pointer;
+    border: none;
+    width: 8vw;
+    border-radius: .5vw;
+    padding: 1vw 0.8vw;
+    font-size: 1.5vw;
+    transition: all 0.7s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3; /* Set the background color on hover */
+  }
+
+  #textarea_length{
+    text-align: right;
+  }

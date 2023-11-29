@@ -1,0 +1,72 @@
+   .awesome-footer {
+    /* border: 2px solid red; */
+    padding: 5vw 3vw;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-left {
+    max-width: 30vw;
+    /* border-radius: 2px solid red; */
+  }
+  
+  .footer-left h3 {
+    color: #fff;
+    margin: 0 0 2vw 0;
+  }
+  
+  .footer-left ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .footer-left li {
+    margin-bottom: 0.9vw;
+  }
+  
+  .footer-left a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .footer-right {
+    text-align: right;
+    /* border: 2px solid red; */
+    margin: 0 10vw 0 0;
+  }
+  
+  .footer-right h3 {
+    text-align: center;
+    user-select: none;
+    color: #fff;
+    margin: 0 0 2vw 0;
+  }
+  .social-icons a {
+    /* display: inline-block; */
+    margin-right: 0.8vw;
+    text-decoration: none;
+    border: none;
+  }
+  
+  .social-icons #so-img {
+    border-radius: 0;
+    width: 2vw; /* Adjust the width of social icons */
+    height: auto;
+    /* border: 2px solid red; */
+    /* Make the social icons circular */
+  }
+  
+  /* Add styles for specific social icons if needed */
+  .social-icons a:hover {
+    opacity: 0.8;
+  }
+  
+  footer p{
+    text-align: center;
+  }

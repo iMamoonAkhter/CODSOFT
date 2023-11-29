@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300&display=swap');
+/* font-family: 'Playfair Display', serif; title */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* font-family: 'Montserrat', sans-serif; subheading */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+/* font-family: 'Raleway', sans-serif; buttons */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+/* font-family: 'Open Sans', sans-serif; paragraph */
+
+button .btn{
+    font-family: 'Raleway', sans-serif;
+}
+.title, .contact_header, .gallery_heading{
+    font-family: 'Playfair Display', serif;
+    font-size: 3vw;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+.subheading, .form_group label{
+    font-family: 'Montserrat', sans-serif;
+}

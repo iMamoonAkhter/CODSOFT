@@ -1,0 +1,53 @@
+  /* Styling for the container */
+  .slider-container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.gallery_heading{
+    margin: 2vw 0;
+    text-align: center;
+}
+/* Styling for the slider */
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Styling for the individual slides */
+.slide {
+    min-width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.slide img{
+    width: 60vw;
+    
+}
+
+/* Styling for the navigation arrows */
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2vw;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1vw;
+    border: none;
+    outline: none;
+}
+.arrow:hover{
+    background-color: rgba(228, 31, 31, 0.5);
+}
+.arrow-left {
+    left: 0;
+}
+
+.arrow-right {
+    right: 0;
+}

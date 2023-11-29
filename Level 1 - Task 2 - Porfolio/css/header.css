@@ -1,0 +1,83 @@
+.header-container {
+    max-width: 100vw;
+    background-color: #333;
+    color: #fff;
+    padding: 2vw 0;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-content{
+    /* border: 2px solid red; */
+    margin: 0 0 0 2vw;
+}
+.header-container h1 {
+    margin: 0;
+    font-size: 2.5vw;
+}
+
+.header-container p {
+    margin: 0;
+    font-size: 1.5vw;
+}
+
+.nav-container {
+    /* border: 2px solid red; */
+    /* width: 30vw; */
+    display: flex;
+    justify-content: right;
+    position: relative;
+    right: 2vw;
+  }
+
+
+
+
+
+
+
+
+
+.btn41-43 {
+    padding: 0.8vw 1vw;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 500;
+    background: transparent;
+    outline: none !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .btn-42 {
+    border: 2px solid #333;
+    z-index: 1;
+    color: white;
+  }
+  
+  .btn-42:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background: rgb(255, 255, 255);
+    transition: all 0.3s ease;
+  }
+  
+  .btn-42:hover {
+    color: rgb(0, 0, 0);
+  }
+  
+  .btn-42:hover:after {
+    top: 0;
+    height: 100%;
+  }
+  
+  .btn-42:active {
+    top: 2px;
+  }
