@@ -30,7 +30,6 @@ To view each project, follow the provided links to the respective directories wi
 
 If you have any questions or issues, feel free to reach out to me:
 
-- Email: your.email@example.com
 - LinkedIn: [Mamoon Akhter](https://www.linkedin.com/in/imamoonakhter)
 
 ## Acknowledgments
